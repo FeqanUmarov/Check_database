@@ -748,4 +748,4 @@ class Check_Database():
 
 
 
-y = Check_Database()
+check = Check_Database()
