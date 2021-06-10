@@ -3,7 +3,7 @@ from arcpy import env
 import os
 class Check_Database():
     print("""Cografi verilenler bazasinin yoxlanilmasi sistemine xos gelmisiniz. Yoxlamaya baslamaq ucun yoxlama aparilacaq databazani
-     ve xetalarin ginderileceyi bazanin yolunu daxil edin (Numune: r"D:\ArcGIS Pro_file\ArcGIS_File\Bazalar\Example.mdb\RAYON" Burada 'RAYON'
+     ve xetalarin gonderileceyi bazanin yolunu daxil edin (Numune: r"D:\ArcGIS Pro_file\ArcGIS_File\Bazalar\Example.mdb\RAYON" Burada 'RAYON'
      datasetin adidir. Yeni laylarin yerlesdiyi yerin File Path tam daxil etmek lazimdir.) Inputlar verildikden sonra, 'checkdata'
      yazaraq noqte qoyduqda ona bagli olan metodlar gelecekdir. Yoxlama ucun istifade etdilen metodlar bunlardir: checkdata.check_feature(),
      checkdata.create_topology(),checkdata.border_parcel_check(),checkdata.quarter_building_check(),checkdata.check_field_value_full(),
